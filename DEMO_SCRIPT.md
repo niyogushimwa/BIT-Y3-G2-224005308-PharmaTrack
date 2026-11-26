@@ -1,9 +1,6 @@
 # PharmaTrack — 2:50 demo video + voiceover script
 
-**Recorded video:** `demo/PharmaTrack_Demo.mp4` (2 minutes 50 seconds, 1280×720, silent)
-**Recording log:** `demo/demo_recording_log.json` (every action with its timestamp)
-
-The video is a real screen recording of the site, driven through the full workflow. It has **no audio track** — read the voiceover below while it plays, or paste the text into a free editor (Clipchamp, CapCut, iMovie) as subtitles/voiceover.
+Use this timed voiceover script with your own screen recording of the site, or paste the text into a free editor (Clipchamp, CapCut, iMovie) as subtitles/voiceover.
 
 Site URL: `http://localhost/Pharmacy-Stock-Alert-System2/pharmacy-stock-alert/public/`
 
