@@ -1,0 +1,197 @@
+{
+  "duration": 170.0,
+  "fps": 6,
+  "frames": 1020,
+  "events": [
+    {
+      "time": 3.0,
+      "step": "Sign in as admin",
+      "result": "ok"
+    },
+    {
+      "time": 4.26,
+      "step": "Submit admin login",
+      "result": "ok"
+    },
+    {
+      "time": 8.0,
+      "step": "Open dashboard",
+      "result": "ok"
+    },
+    {
+      "time": 15.0,
+      "step": "Scroll dashboard",
+      "result": "ok"
+    },
+    {
+      "time": 20.0,
+      "step": "Return to dashboard top",
+      "result": "ok"
+    },
+    {
+      "time": 25.0,
+      "step": "Open medicines catalog",
+      "result": "ok"
+    },
+    {
+      "time": 30.0,
+      "step": "Filter low stock",
+      "result": "ok"
+    },
+    {
+      "time": 35.0,
+      "step": "Clear catalog filter",
+      "result": "ok"
+    },
+    {
+      "time": 39.0,
+      "step": "Focus live search",
+      "result": "ok"
+    },
+    {
+      "time": 40.0,
+      "step": "Live search: p",
+      "result": "ok"
+    },
+    {
+      "time": 40.5,
+      "step": "Live search: a",
+      "result": "ok"
+    },
+    {
+      "time": 41.0,
+      "step": "Live search: r",
+      "result": "ok"
+    },
+    {
+      "time": 41.5,
+      "step": "Live search: a",
+      "result": "ok"
+    },
+    {
+      "time": 44.0,
+      "step": "Live search result count",
+      "result": "2 results found."
+    },
+    {
+      "time": 47.0,
+      "step": "Open add medicine form",
+      "result": "ok"
+    },
+    {
+      "time": 51.0,
+      "step": "Fill medicine fields",
+      "result": "ok"
+    },
+    {
+      "time": 54.0,
+      "step": "Save medicine",
+      "result": "ok"
+    },
+    {
+      "time": 58.0,
+      "step": "Dashboard after new medicine",
+      "result": "ok"
+    },
+    {
+      "time": 65.0,
+      "step": "Scroll dashboard summaries",
+      "result": "ok"
+    },
+    {
+      "time": 69.0,
+      "step": "Return to dashboard top",
+      "result": "ok"
+    },
+    {
+      "time": 72.0,
+      "step": "Open stock alerts",
+      "result": "ok"
+    },
+    {
+      "time": 79.0,
+      "step": "Scroll alert history",
+      "result": "ok"
+    },
+    {
+      "time": 84.0,
+      "step": "Resolve first active alert",
+      "result": "ok"
+    },
+    {
+      "time": 88.0,
+      "step": "Show resolved alerts",
+      "result": "ok"
+    },
+    {
+      "time": 95.0,
+      "step": "Open suppliers",
+      "result": "ok"
+    },
+    {
+      "time": 100.0,
+      "step": "Open add supplier form",
+      "result": "ok"
+    },
+    {
+      "time": 106.0,
+      "step": "Back to suppliers",
+      "result": "ok"
+    },
+    {
+      "time": 112.0,
+      "step": "Open user management",
+      "result": "ok"
+    },
+    {
+      "time": 118.0,
+      "step": "Open add user form",
+      "result": "ok"
+    },
+    {
+      "time": 123.0,
+      "step": "Back to users",
+      "result": "ok"
+    },
+    {
+      "time": 129.0,
+      "step": "Sign out admin",
+      "result": "ok"
+    },
+    {
+      "time": 133.0,
+      "step": "Sign in as pharmacist",
+      "result": "ok"
+    },
+    {
+      "time": 135.0,
+      "step": "Submit pharmacist login",
+      "result": "ok"
+    },
+    {
+      "time": 141.0,
+      "step": "Pharmacist tries user management",
+      "result": "ok"
+    },
+    {
+      "time": 148.0,
+      "step": "Pharmacist dashboard",
+      "result": "ok"
+    },
+    {
+      "time": 153.0,
+      "step": "Sign out pharmacist",
+      "result": "ok"
+    },
+    {
+      "time": 158.0,
+      "step": "Show registration page",
+      "result": "ok"
+    },
+    {
+      "time": 163.0,
+      "step": "Return to sign in page",
+      "result": "ok"
+    }
+  ]
+}

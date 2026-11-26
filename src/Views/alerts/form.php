@@ -1,0 +1,9 @@
+<section class="page-heading"><div><span class="eyebrow">STOCK MONITORING</span><h1>Create a stock alert</h1><p class="muted">Record a low-stock or expired-medicine alert.</p></div><a class="button button-secondary" href="<?= e(url('alerts')) ?>">← Back to alerts</a></section>
+<section class="panel form-panel"><form method="post" action="<?= e(url('alert-create')) ?>" class="form-stack"><?= \App\Core\Csrf::field() ?>
+    <?php if (!empty($errors['alert'])): ?><div class="form-error" role="alert"><?= e($errors['alert']) ?></div><?php endif; ?>
+    <div class="form-grid">
+        <label>Medicine <span class="required">*</span><select name="medicine_id" required><option value="">Choose a medicine</option><?php foreach ($medicines as $medicine): ?><option value="<?= e($medicine['medicine_id']) ?>" <?= (string) ($old['medicine_id'] ?? '') === (string) $medicine['medicine_id'] ? 'selected' : '' ?>><?= e($medicine['name']) ?> · <?= e($medicine['stock']) ?> in stock</option><?php endforeach; ?></select><?php if (!empty($errors['medicine_id'])): ?><small class="field-error"><?= e($errors['medicine_id']) ?></small><?php endif; ?></label>
+        <label>Alert type <span class="required">*</span><select name="alert_type" required><option value="">Choose a type</option><option value="low" <?= ($old['alert_type'] ?? '') === 'low' ? 'selected' : '' ?>>Low stock</option><option value="expired" <?= ($old['alert_type'] ?? '') === 'expired' ? 'selected' : '' ?>>Expired</option></select><?php if (!empty($errors['alert_type'])): ?><small class="field-error"><?= e($errors['alert_type']) ?></small><?php endif; ?></label>
+    </div>
+    <div class="form-actions"><a class="button button-quiet" href="<?= e(url('alerts')) ?>">Cancel</a><button class="button button-primary" type="submit">Create alert</button></div>
+</form></section>
